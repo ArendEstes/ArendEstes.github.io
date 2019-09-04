@@ -123,12 +123,15 @@ body {
     font-size: 3.5rem;
     color: var(--mainBlue);
   }
+  .list-item{
+    height: 1em;
+  }
+
 }
 
 .list-item {
   flex: 0 0 33.33%;
-  text-align: center;
-  height: 1em;
+  text-align: center
 }
 
 /*.expense-item {
