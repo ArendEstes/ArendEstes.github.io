@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <title>Tetris</title>
+    <script src="https://kit.fontawesome.com/71dbb183ea.js"></script>
     <style>
         body{
             background: #202028;
@@ -18,14 +19,36 @@
             height: 80vh;
             border: solid;
         }
-        #scoreBoard{
+        #scoreBoard, #control{
             display: flex;
-            justify-content: space-between;
             width: 52vh;
             margin: auto;
         }
+
+        #scoreBoard{
+            justify-content: space-between;
+        }
+
+        #control{
+            justify-content: space-around;
+        }
+
         .scoreBoard{
             width: 30%;
+        }
+
+        .pad{
+            padding-top: 6px;
+        }
+
+        i {
+            cursor: pointer;
+        }
+
+        @media only screen and (min-width: 900px){
+            #control{
+                display: none;
+            }
         }
 
     </style>
@@ -38,6 +61,14 @@
     </div>
     
     <canvas id="tetris" width="240" height="400"></canvas>
+
+    <div id="control">
+        <div><i class="fas fa-caret-left fa-3x" id="left"></i></div>
+        <div><i class="far fa-arrow-alt-circle-down fa-2x pad" id="down"></i></div>
+        <div><i class="fas fa-sync-alt fa-2x pad" id="flip"></i></div>
+        <div><i class="fas fa-caret-right fa-3x" id="right"></i></div>
+    </div>
+
     <script src="tetris.js"></script>
 </body>
 </html>

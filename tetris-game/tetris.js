@@ -335,6 +335,18 @@ document.addEventListener("keydown", event=>{
     }
 })
 
+// icon control
+const left = document.getElementById("left");
+const down = document.getElementById("down");
+const flip = document.getElementById("flip");
+const right = document.getElementById("right");
+
+left.addEventListener("click", ()=>{playerMove(-1)});
+down.addEventListener("click", ()=>{playerDrop()});
+flip.addEventListener("click", ()=>{playerRotate()});
+right.addEventListener("click", ()=>{playerMove(1)});
+
+
 updateHighScore();
 updateLevel();
 updateScore();
