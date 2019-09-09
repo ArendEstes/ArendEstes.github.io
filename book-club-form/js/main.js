@@ -9,11 +9,11 @@ const form = document.querySelector("form");
 function checkInput(){
     if (  name.value.trim() && regEx.test(mail.value) ){
         submit.style.background = "#fa923f";
-        submit.disabled = false;
+        //submit.disabled = false;
     }
     else {
-        submit.style.backgroundColor = "#979695";
-        submit.disabled = true;
+        submit.style.backgroundColor = "#d5a886";//"#979695";
+        //submit.disabled = true;
     }
 }
 
