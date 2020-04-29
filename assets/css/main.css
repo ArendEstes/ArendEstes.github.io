@@ -1,4 +1,5 @@
-@import url(c:\Users\arend\aboveboardhs\assets\css\fontawesome-all.min.css);
+/* @import url(fontawesome-all.min.css); */
+
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 
 /*
@@ -2590,7 +2591,7 @@ ul.posts article header {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    -ms-flex: 1;
+    flex: 1;
 }
 
 ul.posts article header h3 {
@@ -2745,7 +2746,7 @@ ul.posts article header> :last-child {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    -ms-flex: 1;
+    flex: 1;
     padding: 0 0 3.3em 0;
 }
 
@@ -2883,7 +2884,7 @@ ul.posts article header> :last-child {
         border-left: 0;
     }
     .post>header .title {
-        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
         margin: 0 0 2em 0;
         padding: 0;
         text-align: center;
@@ -3404,7 +3405,7 @@ body.single #wrapper {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    -ms-flex: 1;
+    flex: 1;
     width: 100%;
 }
 
