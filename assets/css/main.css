@@ -3408,6 +3408,20 @@ body.single #wrapper {
     width: 100%;
 }
 
+#main #photo-james {
+    width: 111px;
+    height: 200px;
+    margin-bottom: 1em
+}
+
+#main #like-fb {
+    width: 20vw;
+    min-width: 250px;
+    display: block;
+    margin: auto;
+    padding: 1em;
+}
+
 
 /* Sidebar */
 
@@ -3427,6 +3441,18 @@ body.single #wrapper {
     border-top: 0;
     margin-top: 0;
     padding-top: 0;
+}
+
+#sidebar #best-handyman-a {
+    display: inline-block;
+    border: 0;
+}
+
+#sidebar #best-handyman-img {
+    width: 125px;
+    height: 125px;
+    margin-right: 1em;
+    display: inline-block;
 }
 
 @media screen and (max-width: 1280px) {
